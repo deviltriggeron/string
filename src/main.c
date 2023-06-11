@@ -38,6 +38,12 @@ int main(){
 
     printf("%d\n", s21_memcmp(testi, testj, 4));
     
+    s21_memset(testi, 'A', 3); 
+
+    for (int i = 0; i < 4; i++){
+        printf("%c", testi[i]);
+    } 
+    
 
 
     
